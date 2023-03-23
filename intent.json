@@ -1,0 +1,131 @@
+
+{"intents":[
+    {"tag": "Greetings",
+    "patterns": ["Hello", "Hi", "Hey", "Good day", "Greetings", "what's up", "how is it going"],
+    "responses": ["Hello! How can I assist you?", "Hello!", "What can I do for you?", "Hi there, how can I help you today?", "Hey! How can I be of service today?"],
+    "context_set": ""
+},
+
+{"tag": "name",
+"patterns": ["what is your name", "your name is", "what should i call you", "whats your name", "who are you", "can you tell me your name"],
+"responses": ["My name is GreenBot your personal Mental health chatbot :)"],
+"context_set": ""
+},
+
+
+{"tag": "Professional_Help",
+"patterns": ["i need professional help", "can you refer me to a professional", "I can't take it anymore"],
+"responses": ["If you need immediate help, just click the call button above", "Just click the call button above for a professional help"],
+"context_set": ""
+},
+
+{"tag": "talk",
+"patterns": ["I need someone to talk to", "I need someone who will listen to me", "i need help"],
+"responses": ["Do you want to talk with me? or to a professional?"],
+"context_set": ""
+},
+
+{"tag": "want",
+    "patterns": ["i want you", "just you", "yes you", "No i want you", "no i want you"],
+    "responses": ["okay lets have a meaningful conversation, what do you want to talk about?", "alright what do you want to talk about?", "I'm here to listen. Tell me",
+    "I'm all ears", "I have a lot of free time, you can talk to me."],
+    "context_set": ""
+},
+
+{"tag": "thankful",
+    "patterns": ["Thank you for your help with my problem earlier.", "Thanks", "Appreciate it", "thanks", "thank", "tnx", "thank you", "you", 
+     "I really appreciate the advice you gave me. Thank you!"],
+    "responses": ["You're welcome! It's my pleasure to help.", "No problem, happy to help.", "Anytime! I'm here to assist you."]
+},
+
+
+{"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "see ya", "Thank you for the help"],
+    "responses": ["See you later! Remember to take care of yourself.", "Goodbye! Take care of yourself.", "Goodbye!", "Bye! Take care."],
+    "context_set": ""
+},
+
+{"tag": "Anxiety",
+    "patterns": ["I feel anxious", "Anxiety is overwhelming me", "Can't stop worrying", "Feeling nervous", "Heart is racing", "Anxious thoughts won't stop"],
+    "responses": ["I'm sorry to hear that. Anxiety can be tough to deal with. Have you tried any coping mechanisms to help manage your anxiety?"],
+    "context_set": ""
+},
+
+{"tag": "Depression",
+"patterns":["I feel depressed", "I cant take this anymore", "Im not happy anymore", "Im struggling", "I think i have depression", "Im always sad", "dead", "die", "depression", "I'm sad all the time", "I'm feeling down"],
+"responses":["Im sorry to hear that, It can be tough to deal with, but there are many resources available to help. Have you considered talking to a therapist or counselor?",
+"Depression is a serious mental health concern, and it's important to take it seriously. Have you tried any self-care practices, such as exercise or meditation?",
+"It's important to know that you're not alone. Many people struggle with depression, and it's nothing to be ashamed of. Have you considered reaching out to a support group or hotline for additional help?",
+"I hear you. Depression can be overwhelming, but there are ways to manage it. Have you considered speaking with a doctor about medication or therapy options?", "I'm here to listen. Can you tell me more about what's been bothering you?",
+"I'm here to support you. Can you describe how you've been feeling?",
+"If you need help I am always here to talk with you, You are not alone in your battles.",
+"I am always here to support you, you are loved and I wish I can give you a million hugs", 
+"You're not alone. It's important to prioritize your mental health. Can you tell me more about what's been going on?"],
+"context_set": ""
+},
+
+{"tag": "Stress",
+"patterns": ["I'm feeling stressed", "I can't seem to relax", "Im too tired of my acadamics", "Everything is just too much right now",
+"I feel overwhelmed", "I'm under a lot of pressure", "stress", "pressure"],
+"responses": ["I'm sorry to hear that you're feeling stressed. It's important to take care of yourself during these times. Have you tried any relaxation techniques, such as deep breathing or mindfulness?",
+"Stress can take a toll on your mental and physical health, so it's important to address it early on. Have you considered talking to a therapist or counselor about your stressors?",
+"It can be helpful to take a step back and reassess your priorities when you're feeling stressed. Is there anything you can delegate or eliminate from your to-do list?",
+"Stress is a normal part of life, but there are ways to manage it. Have you tried exercise or other forms of physical activity to help relieve stress?",
+"Remember to take care of yourself during stressful times. Eating well, getting enough sleep, and spending time doing things you enjoy can all help to reduce stress.",
+"If you are feeling stressed take some time with your family and friends to have fun. Always remember that taking a break is very important, so go get that break you beautiful humans!",
+"Let's talk about some ways you can manage your stress. Have you tried deep breathing or meditation before?"],
+"context_set": ""
+},
+
+{"tag": "Academic Burnout",
+"patterns": ["I'm burnt out", "academic burnout", "I'm overwhelmed by school", "There's too many school works that we have to do", "I'm tired after doing all of my school activities"],
+"responses": ["Academic burnout can be tough to deal with. Have you tried taking a break or scheduling some self-care time?", 
+"Let's talk about ways to manage academic burnout. Have you considered speaking with your school's counseling center or a mental health professional?"]
+},
+
+{"tag": "Dad Jokes",
+"patterns": ["Tell me a joke", "Do you have a good joke", "make me laugh", "give me some laugh", "I want a dad jokes"],
+"responses": ["Why did the tomato turn red? because it saw the salad dressing", "what do you call a bear with no teeth? a gummy bear", "How do you organize a space party? ya planet"],
+"context_set": ""
+},
+
+{"tag": "conversation",
+"patterns": ["I need someone to talk to", "can i talk to you", "can i open up", "i need you to listen to my feelings"],
+"responses": ["Sure, I am willing to listen", "I am here and ready to listen"],
+"context_set": ""
+},
+
+{"tag": "support",
+"patterns": ["Can you give me some support?", "I need some encouragement", "I'm feeling hopeless"],
+"responses": ["I'm here to support you. Can you tell me more about what you need?", "You're not alone. Let's talk about what's been bothering you and how I can help.", "It's okay to feel hopeless sometimes. I'm here to listen and support you."],
+"context_set": ""
+},
+
+{"tag": "resources",
+"patterns": ["Are there any mental health resources available?", "Where can I find mental health support?", "Can you recommend some mental health resources?"],
+"responses": ["There are many resources available to support your mental health. Can you tell me more about what you're looking for?", "Of course. Let's talk about what type of support would be most helpful for you.", "Absolutely. There are a lot of resources available and I can help you find the right one for you."],
+"context_set": ""
+},
+
+{"tag": "uncertain",
+"patterns": ["not that one again"],
+"responses": ["oh sorry about that"],
+"context_set": ""
+},
+
+{"tag": "lazy",
+"patterns": ["can you help me with my homeworks", "homeworks", "can you do my essay", "can you answer my homeworks", "can you do my assignment",
+"can you help me with my assignment"],
+"responses": ["Sorry, but I was only built for mental health"],
+"context_set": ""
+},
+
+{"tag":"approval",
+"patterns": ["Great", "nice"],
+"responses": ["So how may I help you?"],
+"context_set": ""
+}
+
+
+]
+}
